@@ -16,6 +16,8 @@
 		F852BDFA2C3C8DD10032C81B /* CPSC5330_extraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852BDF92C3C8DD10032C81B /* CPSC5330_extraTests.swift */; };
 		F852BE042C3C8DD10032C81B /* CPSC5330_extraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852BE032C3C8DD10032C81B /* CPSC5330_extraUITests.swift */; };
 		F852BE062C3C8DD10032C81B /* CPSC5330_extraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852BE052C3C8DD10032C81B /* CPSC5330_extraUITestsLaunchTests.swift */; };
+		F852BE132C3C8E150032C81B /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852BE122C3C8E150032C81B /* ResultsViewController.swift */; };
+		F8902D5E2C3E05F2009ABC3E /* BMILogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8902D5D2C3E05F2009ABC3E /* BMILogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F852BDFF2C3C8DD10032C81B /* CPSC5330-extraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPSC5330-extraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F852BE032C3C8DD10032C81B /* CPSC5330_extraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPSC5330_extraUITests.swift; sourceTree = "<group>"; };
 		F852BE052C3C8DD10032C81B /* CPSC5330_extraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPSC5330_extraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F852BE122C3C8E150032C81B /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		F8902D5D2C3E05F2009ABC3E /* BMILogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMILogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,15 @@
 		F852BDE12C3C8DD00032C81B /* CPSC5330-extra */ = {
 			isa = PBXGroup;
 			children = (
+				F852BE122C3C8E150032C81B /* ResultsViewController.swift */,
+				F852BDE62C3C8DD00032C81B /* ViewController.swift */,
+				F8902D5D2C3E05F2009ABC3E /* BMILogic.swift */,
+				F8902D5F2C3E05FD009ABC3E /* View */,
+				F8902D612C3E061F009ABC3E /* Base */,
+				F8902D622C3E0629009ABC3E /* Model */,
 				F852BDE22C3C8DD00032C81B /* AppDelegate.swift */,
 				F852BDE42C3C8DD00032C81B /* SceneDelegate.swift */,
-				F852BDE62C3C8DD00032C81B /* ViewController.swift */,
-				F852BDE82C3C8DD00032C81B /* Main.storyboard */,
 				F852BDEB2C3C8DD10032C81B /* Assets.xcassets */,
-				F852BDED2C3C8DD10032C81B /* LaunchScreen.storyboard */,
 				F852BDF02C3C8DD10032C81B /* Info.plist */,
 			);
 			path = "CPSC5330-extra";
@@ -125,6 +132,29 @@
 				F852BE052C3C8DD10032C81B /* CPSC5330_extraUITestsLaunchTests.swift */,
 			);
 			path = "CPSC5330-extraUITests";
+			sourceTree = "<group>";
+		};
+		F8902D5F2C3E05FD009ABC3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8902D612C3E061F009ABC3E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F852BDE82C3C8DD00032C81B /* Main.storyboard */,
+				F852BDED2C3C8DD10032C81B /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F8902D622C3E0629009ABC3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +290,9 @@
 			files = (
 				F852BDE72C3C8DD00032C81B /* ViewController.swift in Sources */,
 				F852BDE32C3C8DD00032C81B /* AppDelegate.swift in Sources */,
+				F8902D5E2C3E05F2009ABC3E /* BMILogic.swift in Sources */,
 				F852BDE52C3C8DD00032C81B /* SceneDelegate.swift in Sources */,
+				F852BE132C3C8E150032C81B /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
